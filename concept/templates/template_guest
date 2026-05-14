@@ -1,0 +1,72 @@
+<div
+  style="
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background: #ffffff;
+    color: #111111;
+  "
+>
+  <h2 style="margin-bottom: 25px;">
+    Dear {{guest_name}},
+  </h2>
+
+  <p>
+    It is a pleasure to greet you.
+  </p>
+
+  <p>
+    Through this message, we are pleased to confirm your attendance
+    at our wedding celebration, which will take place on
+    <strong>{{wedding_date}}</strong>
+    at
+    <strong>{{wedding_hour}}</strong>
+    in
+    <strong>{{wedding_location}}</strong>.
+  </p>
+
+  <p>
+    Your attendance has been successfully registered with the
+    following information:
+  </p>
+
+  <ul>
+    <li>
+      <strong>Name:</strong>
+      {{guest_name}}
+    </li>
+
+    <li>
+      <strong>Email:</strong>
+      {{guest_email}}
+    </li>
+
+    <li>
+      <strong>Phone:</strong>
+      {{guest_phone}}
+    </li>
+
+    <li>
+      <strong>Attendance:</strong>
+      {{attendance}}
+    </li>
+  </ul>
+
+  <p>
+    We truly appreciate your confirmation and look forward to sharing
+    this unforgettable moment with you.
+  </p>
+
+  <p>
+    Thank you for being part of our special day.
+  </p>
+
+  <br />
+
+  <p>
+    Warm regards,
+  </p>
+
+  <p>
+    <strong>{{hosts}}</strong>
+  </p>
+</div>
